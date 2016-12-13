@@ -1,15 +1,27 @@
 # GPS-Navigation-MSI
 
 Publisher node:
+
 Connect USB of APM to Laptop
+
 run : rosrun mavros mavros_node _fcu_url:=/dev/ttyACM0:115200
 
 Subscriber node : 
+
 Mavros package for extracting data from Ardu pilot MEGA (GPS module Ublox Neo 7m with compass)
+
 Data received at 2 readings per second
+
 Calculating navigation angle based on direct (long,lat) coordinates
+
 Calculating distance between current and target on the great circle
 
+Useful links:
+https://erlerobotics.gitbooks.io/erlerobot/content/en/mavlink/ros/mavros.html
+
+
 Yet to update:
-packages.xml
-CmakeLists.txt
+
+  packages.xml
+
+  CmakeLists.txt
